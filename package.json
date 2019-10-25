@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Feedback App for Startup Owners",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Vikrant Singh Bandral",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^1.3.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
