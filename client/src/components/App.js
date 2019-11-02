@@ -31,7 +31,5 @@ class App extends React.Component {
     );
   }
 }
-const mapStateToProps = () => {
-  fetchUser
-}
+
 export default connect(mapStateToProps, actions)(App);
