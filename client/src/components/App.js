@@ -18,10 +18,10 @@ class App extends React.Component {
   }
   render(){
     return (
-      <div className="container">
+      <div>
       <BrowserRouter>
-        <div>
-          <Header />
+        <Header />
+        <div className="container">
           <Route exact path="/" component={Landing} />
           <Route path="/surveys" component={Dashboard} />
           <Route path="/surveys/new" component={SurveyNew} />
@@ -32,4 +32,4 @@ class App extends React.Component {
   }
 }
 
-export default connect(mapStateToProps, actions)(App);
+export default connect(null, actions)(App);
