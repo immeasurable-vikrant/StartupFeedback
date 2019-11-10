@@ -1,0 +1,20 @@
+// goto package.json
+
+// "proxy": {
+//     {
+
+//     },
+
+//     "/api/*": {
+//         "target": "http://localhost:5000"
+//     }
+// }
+
+
+
+
+// npm install --save sendgrid
+
+//Index.html mei koi link paste krna hai ....
+
+//

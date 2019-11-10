@@ -10,3 +10,4 @@ module.exports = {
     sendGridkey: process.env.SEND_GRID_KEY,
     redirectDomain: process.env.REDIRECT_DOMAIN 
 
+}
