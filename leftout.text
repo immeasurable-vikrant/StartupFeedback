@@ -1,4 +1,4 @@
-// goto package.json
+// goto package.json cd client
 
 // "proxy": {
 //     {
@@ -12,8 +12,8 @@
 
 
 
-
-// npm install --save sendgrid
+// npm install --save stripe cd server
+// npm install --save sendgrid cd server
 
 //Index.html mei koi link paste krna hai ....
 
