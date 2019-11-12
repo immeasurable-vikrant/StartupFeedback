@@ -5,12 +5,9 @@ import Header from './Header';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 import Landing from './Landing';
-// import Dashboard from './Dashboard';
-import SurveyNew from './surveys/surveyNew';
+import Dashboard from './Dashboard';
+import SurveyNew from './surveys/SurveyNew';
 
-export const Dashboard = () => {
-  return <div>Hello</div>
-};
 
 class App extends React.Component {
 
@@ -33,4 +30,4 @@ class App extends React.Component {
   }
 }
 
-export default connect(actions)(App);
+export default connect(mapStateToProps, actions)(App);

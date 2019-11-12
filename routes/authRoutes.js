@@ -27,7 +27,5 @@ module.exports = (app) => {
         req.logout();
     });
 
-
-
 };
 
