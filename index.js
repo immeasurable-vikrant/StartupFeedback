@@ -9,7 +9,16 @@ require('./models/Survey');
 require('./services/passport');
 
 
-mongoose.connect(keys.mongoURI)
+// mongoose.connect(keys.mongoURI)
+mongoose
+.connect(keys.mongoURI, process.env.MONGO_URI, {
+useUnifiedTopology: true,
+useNewUrlParser: true,
+})
+.then(() => console.log('DB Connected!'))
+.catch(err => {
+console.log(`${err.message}`);
+});
 
 const app = express();
 
